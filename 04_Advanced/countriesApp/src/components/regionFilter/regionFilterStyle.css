@@ -1,0 +1,64 @@
+.regionSelect {
+    background: var(--background-main);
+    border-radius: var(--border-rd);
+    position: relative;
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+}
+
+.regionSelect__btn {
+    background: none;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    width: 170px;
+    padding: 1rem;
+
+    display: flex;
+    justify-content: space-between;
+    gap: 0.3rem;
+}
+
+@media only screen and (max-width: 768px) {
+    .regionSelect {
+        width: max-content;
+    }
+}
+
+.regionSelect__text {
+    color: var(--color-main);
+}
+
+.regionSelect__arrow {
+    stroke: var(--color-main);
+}
+
+.regionSelect__arrow {
+    display: flex;
+    align-items: center;
+}
+
+.regionSelect__dropdown {
+    background: var(--background-main);
+    border-radius: var(--border-rd);
+    overflow: hidden;
+    list-style: none;
+    width: 100%;
+    position: absolute;
+    top: 55px;
+    right: 0;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.optionSelect {
+    padding: 0.4rem 0rem 0.4rem 1.4rem;
+    color: var(--color-main);
+}
+
+.optionSelect:hover {
+    background: rgba(0, 0, 0, 0.1);
+}

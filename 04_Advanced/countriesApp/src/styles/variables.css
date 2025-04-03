@@ -1,0 +1,20 @@
+:root {
+    --paddingLR: 3.5rem;
+    --border-rd: 5px;
+}
+
+[data-theme='dark'] {
+    --background-main: hsl(209, 23%, 22%);
+    --background-secondary: hsl(207, 26%, 17%);
+    --color-main: hsl(0, 0%, 100%);
+    --color-secondary: hsl(0, 0%, 98%);
+    --shadow: hsl(207, 26%, 17%);
+}
+
+[data-theme='light'] {
+    --background-main: hsl(0, 0%, 100%);
+    --background-secondary: hsl(0, 0%, 98%);
+    --color-main: hsl(200, 15%, 8%);
+    --color-secondary: hsl(200, 15%, 8%);
+    --shadow: hsl(0, 0%, 85%);
+}

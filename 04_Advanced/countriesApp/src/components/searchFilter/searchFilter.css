@@ -1,0 +1,37 @@
+.searchFilter {
+    position: relative;
+
+    width: 400px;
+}
+
+@media only screen and (max-width: 715px) {
+    .searchFilter {
+        width: 100%;
+    }
+}
+
+.searchFilter__glass {
+    fill: var(--color-main);
+    user-select: none;
+    cursor: pointer;
+    height: 100%;
+    position: absolute;
+    left: 10px;
+
+    display: flex;
+    align-items: center;
+}
+
+.search {
+    background: var(--background-main);
+    border-radius: 5px;
+    color: var(--color-main);
+    border: none;
+    padding: 1rem 1rem 1rem 2rem;
+    width: 100%;
+    outline: none;
+}
+
+.search::placeholder {
+    color: var(--color-main);
+}

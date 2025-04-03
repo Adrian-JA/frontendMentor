@@ -1,0 +1,27 @@
+.cardCountry {
+    display: flex;
+    flex-direction: column;
+
+    height: 300px;
+    background: var(--background-main);
+    border-radius: var(--border-rd);
+    overflow: hidden;
+}
+
+.cardCountry__header {
+    height: 50%;
+    overflow: hidden;
+}
+
+.cardCountry__body {
+    padding: 1rem 1rem 2rem;
+    text-decoration: none;
+}
+
+.cardCountry__title {
+    color: var(--color-main);
+    padding-bottom: 1rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

@@ -1,0 +1,28 @@
+.header {
+    width: 100%;
+    padding: 0.8rem var(--paddingLR);
+    color: var(--color-main);
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__title {
+    color: var(--color-main);
+}
+
+@media only screen and (max-width: 600px) {
+    .header__title {
+        font-size: 1.8rem;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .header {
+        padding: 0.8rem 1.8rem;
+    }
+
+    .header__title {
+        font-size: 1.4rem;
+    }
+}
